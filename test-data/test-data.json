@@ -1,0 +1,13 @@
+{
+  "validLogin": {
+    "email": "${env:TEST_USER_EMAIL}",
+    "password": "${env:TEST_USER_PASSWORD}"
+  },
+  "validProfile": {
+    "firstName": "Test",
+    "lastName": "User",
+    "phone": "+15555550123",
+    "company": "Test Company",
+    "email": "validemail.com"
+  }
+}
